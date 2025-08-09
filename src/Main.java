@@ -23,7 +23,7 @@ public class Main {
 
         }else{
 
-                return  Arrays.copyOfRange(arr,start,end);
+                return  new int[]{arr[start]};
 
         }
 
